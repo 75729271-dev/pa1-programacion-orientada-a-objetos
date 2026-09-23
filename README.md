@@ -9,13 +9,13 @@ Trabajo del curso **Programación Orientada a Objetos (30626)**. Aplicación Jav
 | Institución | Pendiente de completar por el equipo |
 | Docente | Pendiente de completar por el equipo |
 | Sección | Pendiente de completar por el equipo |
-| Integrante 1 | Pendiente de completar |
-| Integrante 2 | Pendiente de completar |
-| Integrante 3 | Pendiente de completar |
-| Integrante 4 | Pendiente de completar |
+| Integrante 1 | Angel Fernando Reyes Moreno |
+| Integrante 2 | Flor de Venus Torres Condori |
+| Integrante 3 | Donny Scrach Gaspar Araujo |
+| Integrante 4 | César Augusto MAGUIÑA ROBLES |
 | Video de YouTube | **Pendiente de grabación/publicación y enlace** |
 
-La consigna establece cuatro integrantes, o cinco con autorización del docente. Los datos anteriores y el video deben completarse antes de la entrega académica. La participación y la asistencia deben corresponder a hechos reales.
+La consigna establece cuatro integrantes, o cinco con autorización del docente. Los datos institucionales pendientes y el video deben completarse antes de la entrega académica. La participación y la asistencia deben corresponder a hechos reales.
 
 ## Ejecución
 
@@ -92,6 +92,11 @@ Las pruebas comprueban registros, duplicados, capacidad, estados del stock, cant
 Los datos se guardan en memoria y se pierden al cerrar el programa. La capacidad es de 100 productos; stock y stock mínimo están entre 0 y 1 000 000. El precio está entre S/ 0.01 y S/ 1 000 000.00. Se usa `double` para practicar tipos básicos, con redondeo y presentación a dos decimales; no constituye un sistema contable de precisión decimal exacta.
 
 ## Organización del equipo y video
+
+La exposición está preparada para una duración orientativa de 8 a 10 minutos:
+
+- [Guion en PDF, con intervención de cada integrante y demostración paso a paso](output/pdf/Guion_PA1_Equipo.pdf).
+- [PowerPoint editable, con 10 diapositivas y notas del expositor](output/presentations/Exposicion_PA1_Equipo.pptx).
 
 Completar el [registro de responsabilidades](docs/trabajo-equipo.md) con los nombres, acuerdos y aportes reales. Grabar la exposición con participación de todos y cámaras encendidas, publicar el video en YouTube según indique el docente y reemplazar el pendiente de la tabla por su enlace. Compartir el acceso al repositorio con el docente.
 

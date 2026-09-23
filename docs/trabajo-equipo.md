@@ -4,10 +4,10 @@ Este documento es una propuesta de organización pendiente de completar y valida
 
 | Responsable real | Tarea propuesta | Evidencia que debe incorporar |
 | --- | --- | --- |
-| Pendiente: integrante 1 | Revisar caso, atributos y clase Producto | Explicación y cambios propios revisados |
-| Pendiente: integrante 2 | Revisar Inventario, búsquedas y acumuladores | Ejemplos y pruebas ejecutadas |
-| Pendiente: integrante 3 | Revisar menú y validaciones de Aplicacion | Demostración de entradas válidas e inválidas |
-| Pendiente: integrante 4 | Revisar pruebas, README y exposición | Resultados revisados y enlace del video |
+| Angel Fernando Reyes Moreno | Revisar caso, atributos y clase Producto | Explicación y cambios propios revisados |
+| Flor de Venus Torres Condori | Revisar Inventario, búsquedas y acumuladores | Ejemplos y pruebas ejecutadas |
+| Donny Scrach Gaspar Araujo | Revisar menú y validaciones de Aplicacion | Demostración de entradas válidas e inválidas |
+| César Augusto MAGUIÑA ROBLES | Revisar pruebas, README y exposición | Resultados revisados y enlace del video |
 
 ## Acuerdos por registrar
 
