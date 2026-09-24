@@ -13,7 +13,7 @@ Trabajo del curso **Programación Orientada a Objetos (30626)**. Aplicación Jav
 | Integrante 5 | David Jared Damazo Valdeos |
 | Video de YouTube | [Ver exposición del equipo](https://www.youtube.com/watch?v=TKgLy1HdxAg) |
 
-Este repositorio contiene el código fuente, el análisis del caso, las pruebas de funcionamiento y los materiales de sustentación del PA1.
+Este [repositorio del PA1](https://github.com/75729271-dev/pa1-programacion-orientada-a-objetos) contiene el código fuente, el análisis del caso, la organización del equipo y las pruebas de funcionamiento.
 
 ## Ejecución
 
@@ -55,7 +55,7 @@ Los códigos ignoran diferencias entre mayúsculas y minúsculas. El precio acep
 - `switch` selecciona opciones; `do while` repite el menú; `while` repite las validaciones; `for` recorre los productos. Los condicionales simples y anidados validan operaciones y determinan el estado del stock.
 - La solución usa los fundamentos de las sesiones 1 a 4. No emplea herencia, interfaces, streams, frameworks ni persistencia. `Scanner`, `String`, `Math` y `Locale` sirven como utilidades básicas de entrada, texto y formato.
 
-El [análisis del caso](docs/analisis.md) detalla las clases, atributos y métodos. La [sustentación del proyecto](docs/guion-exposicion.md) presenta los fundamentos técnicos y el caso de demostración.
+El [análisis del caso](docs/analisis.md) detalla las clases, atributos y métodos.
 
 ## Ejemplo de comprobación
 
@@ -89,12 +89,11 @@ Las pruebas comprueban registros, duplicados, capacidad, estados del stock, cant
 
 Los datos se guardan en memoria y se pierden al cerrar el programa. La capacidad es de 100 productos; stock y stock mínimo están entre 0 y 1 000 000. El precio está entre S/ 0.01 y S/ 1 000 000.00. Se usa `double` para practicar tipos básicos, con redondeo y presentación a dos decimales; no constituye un sistema contable de precisión decimal exacta.
 
-## Materiales de sustentación
+## Equipo y exposición
 
-- [Sustentación del proyecto en PDF](output/pdf/Sustentacion_PA1.pdf).
-- [Presentación del proyecto en PowerPoint](output/presentations/Presentacion_PA1.pptx).
+La [organización del equipo](docs/trabajo-equipo.md) detalla las responsabilidades de los cinco integrantes según las diapositivas y los acuerdos de diseño.
 
-[Ver el video de exposición](https://www.youtube.com/watch?v=TKgLy1HdxAg). Los integrantes y los documentos del trabajo se detallan en la [ficha del equipo](docs/trabajo-equipo.md).
+[Ver el video de exposición](https://www.youtube.com/watch?v=TKgLy1HdxAg).
 
 ## Material de referencia
 
