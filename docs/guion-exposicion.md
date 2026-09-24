@@ -1,6 +1,6 @@
 # Guion propuesto de exposición
 
-El [guion PDF completo](../output/pdf/Guion_PA1_Equipo.pdf) incluye el texto para ensayar, los tiempos y la secuencia de consola. La [presentación PowerPoint](../output/presentations/Exposicion_PA1_Equipo.pptx) contiene 10 diapositivas editables y notas del expositor.
+El [guion PDF completo](../output/pdf/Guion_PA1_5_Integrantes.pdf) incluye el texto para ensayar, los tiempos y la secuencia de consola. La [presentación PowerPoint](../output/presentations/Exposicion_PA1_5_Integrantes.pptx) contiene 10 diapositivas editables y notas del expositor.
 
 Duración orientativa: 8 a 10 minutos. Ajustar a las instrucciones del docente. Cada integrante participa con la cámara encendida. Este archivo prepara la grabación; no sustituye el video requerido.
 
@@ -25,9 +25,13 @@ Mostrar el arreglo de productos y el contador `cantidad`. Explicar cómo se evit
 
 Relacionar `switch`, `do while`, `while` e `if` con lo observado.
 
-## César Augusto MAGUIÑA ROBLES: validaciones, pruebas y cierre (diapositivas 8 a 10)
+## César Augusto MAGUIÑA ROBLES: validaciones y pruebas (diapositivas 8 y 9)
 
 Ejecutar `PruebasInventario` y explicar al menos dos pruebas, incluidos un rechazo sin cambios y un cálculo del resumen. Mostrar la documentación del repositorio y comentar sus límites: memoria temporal, capacidad fija y uso educativo de `double`. Explicar qué mejoraría en una evaluación futura si se permitieran persistencia o colecciones.
+
+## David Jared Damazo Valdeos: alcance y cierre (diapositiva 10)
+
+Explicar los límites del programa, presentar el repositorio y cerrar la exposición. Este reparto es una propuesta de guion, no una transcripción ni una verificación de las intervenciones del video.
 
 ## Preguntas para preparar la sustentación
 
@@ -38,4 +42,4 @@ Ejecutar `PruebasInventario` y explicar al menos dos pruebas, incluidos un recha
 - ¿Por qué un stock igual al mínimo activa una alerta?
 - ¿Qué ocurre al cerrar el programa y por qué se eligió ese alcance?
 
-Al finalizar, publicar la grabación en YouTube con la visibilidad indicada por el docente y colocar el enlace en el README. Revisar que el docente pueda abrir tanto el video como el repositorio.
+Video proporcionado por el equipo: [Ver exposición en YouTube](https://www.youtube.com/watch?v=P-vCllVsU5U). El enlace también está en el README.

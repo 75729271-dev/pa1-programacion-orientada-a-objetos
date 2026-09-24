@@ -8,3 +8,6 @@ dist/
 .vscode/
 *.iml
 nbproject/private/
+
+# Archivos temporales de Microsoft Office
+~$*

@@ -13,9 +13,10 @@ Trabajo del curso **Programación Orientada a Objetos (30626)**. Aplicación Jav
 | Integrante 2 | Flor de Venus Torres Condori |
 | Integrante 3 | Donny Scrach Gaspar Araujo |
 | Integrante 4 | César Augusto MAGUIÑA ROBLES |
-| Video de YouTube | **Pendiente de grabación/publicación y enlace** |
+| Integrante 5 | David Jared Damazo Valdeos |
+| Video de YouTube | [Ver exposición del equipo](https://www.youtube.com/watch?v=P-vCllVsU5U) |
 
-La consigna establece cuatro integrantes, o cinco con autorización del docente. Los datos institucionales pendientes y el video deben completarse antes de la entrega académica. La participación y la asistencia deben corresponder a hechos reales.
+La consigna establece cuatro integrantes, o cinco con autorización del docente. Los datos institucionales pendientes deben completarse antes de la entrega académica. La participación y la asistencia deben corresponder a hechos reales.
 
 ## Ejecución
 
@@ -95,10 +96,10 @@ Los datos se guardan en memoria y se pierden al cerrar el programa. La capacidad
 
 La exposición está preparada para una duración orientativa de 8 a 10 minutos:
 
-- [Guion en PDF, con intervención de cada integrante y demostración paso a paso](output/pdf/Guion_PA1_Equipo.pdf).
-- [PowerPoint editable, con 10 diapositivas y notas del expositor](output/presentations/Exposicion_PA1_Equipo.pptx).
+- [Guion en PDF, con intervención de cada integrante y demostración paso a paso](output/pdf/Guion_PA1_5_Integrantes.pdf).
+- [PowerPoint editable, con 10 diapositivas y notas del expositor](output/presentations/Exposicion_PA1_5_Integrantes.pptx).
 
-Completar el [registro de responsabilidades](docs/trabajo-equipo.md) con los nombres, acuerdos y aportes reales. Grabar la exposición con participación de todos y cámaras encendidas, publicar el video en YouTube según indique el docente y reemplazar el pendiente de la tabla por su enlace. Compartir el acceso al repositorio con el docente.
+El equipo está conformado por los cinco integrantes indicados en la tabla. [Ver el video de exposición](https://www.youtube.com/watch?v=P-vCllVsU5U). Completar el [registro de responsabilidades](docs/trabajo-equipo.md) con los acuerdos y aportes reales, y compartir el repositorio con el docente.
 
 ## Material de referencia
 

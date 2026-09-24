@@ -8,6 +8,7 @@ Este documento es una propuesta de organización pendiente de completar y valida
 | Flor de Venus Torres Condori | Revisar Inventario, búsquedas y acumuladores | Ejemplos y pruebas ejecutadas |
 | Donny Scrach Gaspar Araujo | Revisar menú y validaciones de Aplicacion | Demostración de entradas válidas e inválidas |
 | César Augusto MAGUIÑA ROBLES | Revisar pruebas, README y exposición | Resultados revisados y enlace del video |
+| David Jared Damazo Valdeos | Revisar el alcance, los límites y el cierre de la exposición | Aportes reales y explicación del alcance |
 
 ## Acuerdos por registrar
 
@@ -15,6 +16,7 @@ Este documento es una propuesta de organización pendiente de completar y valida
 - Distribución aceptada por el equipo: pendiente.
 - Decisiones revisadas y motivos: pendiente.
 - Aportes reales de cada integrante: pendiente.
-- Fecha y enlace del video: pendiente.
+- Video de exposición: [YouTube](https://www.youtube.com/watch?v=P-vCllVsU5U).
+- Fecha de grabación: pendiente de registrar.
 
 Cada integrante debe comprender la solución completa y poder explicar sus aportes. El historial del repositorio conserva los cambios efectuados; no reemplaza la sustentación oral ni la verificación de asistencia del docente.
