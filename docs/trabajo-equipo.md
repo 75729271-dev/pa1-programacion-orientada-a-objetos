@@ -1,22 +1,28 @@
-# Registro de trabajo del equipo
+# Equipo del proyecto
 
-Este documento es una propuesta de organización pendiente de completar y validar por los integrantes. No acredita participación, reuniones ni asistencia realizadas.
+**Curso:** Programación Orientada a Objetos (30626)
 
-| Responsable real | Tarea propuesta | Evidencia que debe incorporar |
-| --- | --- | --- |
-| Angel Fernando Reyes Moreno | Revisar caso, atributos y clase Producto | Explicación y cambios propios revisados |
-| Flor de Venus Torres Condori | Revisar Inventario, búsquedas y acumuladores | Ejemplos y pruebas ejecutadas |
-| Donny Scrach Gaspar Araujo | Revisar menú y validaciones de Aplicacion | Demostración de entradas válidas e inválidas |
-| César Augusto MAGUIÑA ROBLES | Revisar pruebas, README y exposición | Resultados revisados y enlace del video |
-| David Jared Damazo Valdeos | Revisar el alcance, los límites y el cierre de la exposición | Aportes reales y explicación del alcance |
+**Evaluación:** PA1
 
-## Acuerdos por registrar
+**Proyecto:** Sistema de registro y control de productos en consola
 
-- Fecha de reunión y participantes: pendiente.
-- Distribución aceptada por el equipo: pendiente.
-- Decisiones revisadas y motivos: pendiente.
-- Aportes reales de cada integrante: pendiente.
-- Video de exposición: [YouTube](https://www.youtube.com/watch?v=P-vCllVsU5U).
-- Fecha de grabación: pendiente de registrar.
+## Integrantes
 
-Cada integrante debe comprender la solución completa y poder explicar sus aportes. El historial del repositorio conserva los cambios efectuados; no reemplaza la sustentación oral ni la verificación de asistencia del docente.
+1. Angel Fernando Reyes Moreno
+2. Flor de Venus Torres Condori
+3. Donny Scrach Gaspar Araujo
+4. César Augusto MAGUIÑA ROBLES
+5. David Jared Damazo Valdeos
+
+## Documentación del trabajo
+
+| Documento | Contenido |
+| --- | --- |
+| [Análisis del caso](analisis.md) | Clases, atributos, métodos y reglas de validación |
+| [Pruebas](pruebas.md) | Casos de prueba y resultados de ejecución |
+| [Sustentación](guion-exposicion.md) | Fundamentos técnicos y demostración del sistema |
+| [Video de exposición](https://www.youtube.com/watch?v=TKgLy1HdxAg) | Enlace de la exposición del equipo |
+
+## Organización de la solución
+
+El proyecto separa los datos y reglas del producto, la gestión del inventario y la interacción por consola. Esta organización se refleja en las clases Producto, Inventario y Aplicacion. Las decisiones de diseño y los resultados se describen en los documentos enlazados.

@@ -1,45 +1,43 @@
-# Guion propuesto de exposición
+# Sustentación del proyecto
 
-El [guion PDF completo](../output/pdf/Guion_PA1_5_Integrantes.pdf) incluye el texto para ensayar, los tiempos y la secuencia de consola. La [presentación PowerPoint](../output/presentations/Exposicion_PA1_5_Integrantes.pptx) contiene 10 diapositivas editables y notas del expositor.
+El PA1 desarrolla una aplicación Java por consola para registrar productos y controlar las existencias de una microempresa.
 
-Duración orientativa: 8 a 10 minutos. Ajustar a las instrucciones del docente. Cada integrante participa con la cámara encendida. Este archivo prepara la grabación; no sustituye el video requerido.
+- [Video de exposición](https://www.youtube.com/watch?v=TKgLy1HdxAg).
+- [Documento de sustentación en PDF](../output/pdf/Sustentacion_PA1.pdf).
+- [Presentación PowerPoint](../output/presentations/Presentacion_PA1.pptx).
 
-## Angel Fernando Reyes Moreno: caso y modelo (diapositivas 1 a 3)
+## Fundamentos de la solución
 
-Presentar la necesidad de la microempresa y las operaciones del menú. Abrir `Producto.java` y explicar la diferencia entre una clase y un objeto. Mostrar los atributos de instancia, una constante de clase y el constructor parametrizado. Explicar por qué el stock se modifica mediante métodos.
+La clase Producto representa un artículo mediante su código, nombre, precio, stock y stock mínimo. Su constructor parametrizado inicializa esos datos. Los atributos privados permiten controlar los cambios mediante métodos: ingresarStock y retirarStock validan las cantidades antes de modificar las existencias.
 
-## Flor de Venus Torres Condori: atributos, constructor e inventario (diapositivas 4 y 5)
+Inventario reúne hasta cien productos, evita códigos duplicados y calcula las unidades y el valor total. Aplicacion contiene main y coordina la lectura de datos y las opciones del menú. La separación permite comprobar las reglas de los productos de manera independiente de la interacción por consola.
 
-Mostrar el arreglo de productos y el contador `cantidad`. Explicar cómo se evita duplicar un código y cómo `for` visita solo las posiciones ocupadas. Distinguir el contador de productos del acumulador de unidades y del acumulador de valor monetario. Mencionar la capacidad fija y el almacenamiento temporal.
+## Estructuras de control
 
-## Donny Scrach Gaspar Araujo: flujo y demostración (diapositivas 6 y 7)
+| Estructura | Aplicación |
+| --- | --- |
+| if e if-else | Validar cantidades, disponibilidad y estados del stock |
+| switch | Seleccionar la operación del menú |
+| do while | Repetir el flujo principal hasta salir |
+| while | Volver a solicitar entradas inválidas |
+| for | Recorrer las posiciones ocupadas del inventario |
+| Contadores | Registrar cantidad de productos y alertas |
+| Acumuladores | Sumar unidades y valor de las existencias |
 
-1. Ejecutar la aplicación y listar el inventario vacío.
-2. Registrar A01, Arroz, S/ 4.50, stock 10, mínimo 3.
-3. Registrar B01, Aceite, S/ 8.00, stock 2, mínimo 2.
-4. Intentar registrar A01 otra vez y explicar el rechazo.
-5. Retirar 7 unidades de A01. Consultar su estado de stock bajo.
-6. Intentar retirar 4 unidades de A01. Mostrar que el stock sigue en 3.
-7. Ingresar 2 unidades de A01 y abrir el resumen: 2 productos, 7 unidades, 1 alerta, S/ 38.50.
-8. Introducir una opción con letras y comprobar que el menú permite corregirla.
+## Demostración
 
-Relacionar `switch`, `do while`, `while` e `if` con lo observado.
+1. Registrar A01, Arroz, precio S/ 4.50, stock 10 y mínimo 3.
+2. Registrar B01, Aceite, precio S/ 8.00, stock 2 y mínimo 2.
+3. Intentar registrar A01 nuevamente: el código duplicado se rechaza.
+4. Retirar 7 unidades de Arroz: quedan 3 y se activa la alerta de stock bajo.
+5. Intentar retirar otras 4 unidades: el retiro se rechaza y el stock permanece en 3.
+6. Ingresar 2 unidades de Arroz: el stock aumenta a 5.
+7. Consultar el resumen: 2 productos, 7 unidades, 1 alerta y valor total S/ 38.50.
 
-## César Augusto MAGUIÑA ROBLES: validaciones y pruebas (diapositivas 8 y 9)
+La valorización final es 5 × S/ 4.50 + 2 × S/ 8.00 = S/ 38.50. El retiro rechazado no altera las existencias.
 
-Ejecutar `PruebasInventario` y explicar al menos dos pruebas, incluidos un rechazo sin cambios y un cálculo del resumen. Mostrar la documentación del repositorio y comentar sus límites: memoria temporal, capacidad fija y uso educativo de `double`. Explicar qué mejoraría en una evaluación futura si se permitieran persistencia o colecciones.
+## Verificación y alcance
 
-## David Jared Damazo Valdeos: alcance y cierre (diapositiva 10)
+Las pruebas registran 142 verificaciones de lógica y 14 escenarios de consola correctos. Incluyen duplicados, capacidad, cantidades inválidas, falta de stock, acumuladores y finalización de la entrada. Los detalles se encuentran en [pruebas.md](pruebas.md).
 
-Explicar los límites del programa, presentar el repositorio y cerrar la exposición. Este reparto es una propuesta de guion, no una transcripción ni una verificación de las intervenciones del video.
-
-## Preguntas para preparar la sustentación
-
-- ¿Por qué stock mínimo y stock actual son atributos distintos?
-- ¿Qué diferencia hay entre `mostrarInformacion` y `calcularValorStock`?
-- ¿Por qué una cantidad negativa no debe modificar existencias?
-- ¿En qué se diferencia `cantidad++` de `total += valor`?
-- ¿Por qué un stock igual al mínimo activa una alerta?
-- ¿Qué ocurre al cerrar el programa y por qué se eligió ese alcance?
-
-Video proporcionado por el equipo: [Ver exposición en YouTube](https://www.youtube.com/watch?v=P-vCllVsU5U). El enlace también está en el README.
+Los datos permanecen en memoria durante la sesión. El inventario admite 100 productos y los precios se representan con double, con redondeo y presentación a dos decimales. El alcance corresponde al uso de clases, atributos, constructores, métodos y estructuras de control de las sesiones 1 a 4.

@@ -32,4 +32,4 @@ Verificación realizada el 23 de septiembre de 2026 con OpenJDK 21, compilando p
 4. Ingresar 2 unidades de A01: queda en 5.
 5. Resumen obtenido: 2 productos, 7 unidades, 1 producto con stock bajo y S/ 38.50.
 
-La transcripción real se conserva en [ejecucion-ejemplo.txt](ejecucion-ejemplo.txt). Los comandos para repetir las pruebas están en el README. Las pruebas verifican el programa; no acreditan participación grupal, asistencia ni una grabación de exposición.
+La transcripción real se conserva en [ejecucion-ejemplo.txt](ejecucion-ejemplo.txt). Los comandos para repetir las pruebas están en el README.

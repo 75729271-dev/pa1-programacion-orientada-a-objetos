@@ -4,19 +4,16 @@ Trabajo del curso **Programación Orientada a Objetos (30626)**. Aplicación Jav
 
 ## Datos de la entrega
 
-| Dato | Estado |
+| Dato | Información |
 | --- | --- |
-| Institución | Pendiente de completar por el equipo |
-| Docente | Pendiente de completar por el equipo |
-| Sección | Pendiente de completar por el equipo |
 | Integrante 1 | Angel Fernando Reyes Moreno |
 | Integrante 2 | Flor de Venus Torres Condori |
 | Integrante 3 | Donny Scrach Gaspar Araujo |
 | Integrante 4 | César Augusto MAGUIÑA ROBLES |
 | Integrante 5 | David Jared Damazo Valdeos |
-| Video de YouTube | [Ver exposición del equipo](https://www.youtube.com/watch?v=P-vCllVsU5U) |
+| Video de YouTube | [Ver exposición del equipo](https://www.youtube.com/watch?v=TKgLy1HdxAg) |
 
-La consigna establece cuatro integrantes, o cinco con autorización del docente. Los datos institucionales pendientes deben completarse antes de la entrega académica. La participación y la asistencia deben corresponder a hechos reales.
+Este repositorio contiene el código fuente, el análisis del caso, las pruebas de funcionamiento y los materiales de sustentación del PA1.
 
 ## Ejecución
 
@@ -58,7 +55,7 @@ Los códigos ignoran diferencias entre mayúsculas y minúsculas. El precio acep
 - `switch` selecciona opciones; `do while` repite el menú; `while` repite las validaciones; `for` recorre los productos. Los condicionales simples y anidados validan operaciones y determinan el estado del stock.
 - La solución usa los fundamentos de las sesiones 1 a 4. No emplea herencia, interfaces, streams, frameworks ni persistencia. `Scanner`, `String`, `Math` y `Locale` sirven como utilidades básicas de entrada, texto y formato.
 
-El [análisis del caso](docs/analisis.md) detalla las clases, atributos y métodos. El [guion de exposición](docs/guion-exposicion.md) propone una demostración y preguntas para sustentar las decisiones.
+El [análisis del caso](docs/analisis.md) detalla las clases, atributos y métodos. La [sustentación del proyecto](docs/guion-exposicion.md) presenta los fundamentos técnicos y el caso de demostración.
 
 ## Ejemplo de comprobación
 
@@ -92,14 +89,12 @@ Las pruebas comprueban registros, duplicados, capacidad, estados del stock, cant
 
 Los datos se guardan en memoria y se pierden al cerrar el programa. La capacidad es de 100 productos; stock y stock mínimo están entre 0 y 1 000 000. El precio está entre S/ 0.01 y S/ 1 000 000.00. Se usa `double` para practicar tipos básicos, con redondeo y presentación a dos decimales; no constituye un sistema contable de precisión decimal exacta.
 
-## Organización del equipo y video
+## Materiales de sustentación
 
-La exposición está preparada para una duración orientativa de 8 a 10 minutos:
+- [Sustentación del proyecto en PDF](output/pdf/Sustentacion_PA1.pdf).
+- [Presentación del proyecto en PowerPoint](output/presentations/Presentacion_PA1.pptx).
 
-- [Guion en PDF, con intervención de cada integrante y demostración paso a paso](output/pdf/Guion_PA1_5_Integrantes.pdf).
-- [PowerPoint editable, con 10 diapositivas y notas del expositor](output/presentations/Exposicion_PA1_5_Integrantes.pptx).
-
-El equipo está conformado por los cinco integrantes indicados en la tabla. [Ver el video de exposición](https://www.youtube.com/watch?v=P-vCllVsU5U). Completar el [registro de responsabilidades](docs/trabajo-equipo.md) con los acuerdos y aportes reales, y compartir el repositorio con el docente.
+[Ver el video de exposición](https://www.youtube.com/watch?v=TKgLy1HdxAg). Los integrantes y los documentos del trabajo se detallan en la [ficha del equipo](docs/trabajo-equipo.md).
 
 ## Material de referencia
 
